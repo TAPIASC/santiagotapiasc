@@ -8,7 +8,7 @@ const fetchData = async (URL) => {
     }
 }
 
-const API = 'http://futuramaapi.herokuapp.com/api/quotes/12';
+const API = 'https://futuramaapi.herokuapp.com/api/quotes/12';
 
 const mostrarPersonajes = (personajes) =>{  
     const contenido = document.getElementById("fu-perso")
